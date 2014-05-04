@@ -441,10 +441,13 @@ static CVAppDelegate *_master;
         if ([currentPdf.searchResults count] == 0) {
             PDFPage *currentPage = self.pdfView.currentPage;
             NSPoint currentPoint = self.pdfView.currentDestination.point;
+            NSPoint currentPoint2;
+            currentPoint2.x = currentPoint.x + 10;
+            currentPoint2.y = currentPoint.y + 10;
             previousSel = [currentPdf.pdf selectionFromPage:currentPage
                                                     atPoint:currentPoint
                                                      toPage:currentPage
-                                                    atPoint:currentPoint];
+                                                    atPoint:currentPoint2];
         } else {
             previousSel = currentPdf.searchResults.lastObject;
             [previousSel setColor:[NSColor yellowColor]];
