@@ -3,6 +3,10 @@ Compact Viewer
 
 A simple PDF viewer for Mac. One window, lots of files.
 
+Download: [version 1.0][1]
+
+[1]: https://github.com/roidocampo/Compact-Viewer/releases/download/v1.0/Compact.Viewer.dmg
+
 Why?
 ----
 
