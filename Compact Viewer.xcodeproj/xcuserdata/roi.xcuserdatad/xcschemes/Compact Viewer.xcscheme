@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0510"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -92,5 +92,24 @@
    <ArchiveAction
       buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = ". &quot;/Users/roi/GitHub/Compact Viewer/Compact Viewer/create_dmg.sh&quot;"
+               shellToInvoke = "/bin/bash">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "F068E7791912E78800B6153B"
+                     BuildableName = "Compact Viewer.app"
+                     BlueprintName = "Compact Viewer"
+                     ReferencedContainer = "container:Compact Viewer.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
    </ArchiveAction>
 </Scheme>

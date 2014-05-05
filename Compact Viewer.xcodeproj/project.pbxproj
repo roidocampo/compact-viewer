@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		F0115004191475C1007AD1BF /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = ../AppIcon.icns; sourceTree = "<group>"; };
+		F02D44E81917024E003FB226 /* create_dmg.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = create_dmg.sh; sourceTree = "<group>"; };
 		F0389C471913DF4300E35AEB /* CVTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTableCellView.h; sourceTree = "<group>"; };
 		F0389C481913DF4300E35AEB /* CVTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTableCellView.m; sourceTree = "<group>"; };
 		F068E77A1912E78800B6153B /* Compact Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compact Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +160,7 @@
 				F068E7891912E78800B6153B /* main.m */,
 				F068E78B1912E78800B6153B /* Compact Viewer-Prefix.pch */,
 				F068E78C1912E78800B6153B /* Credits.rtf */,
+				F02D44E81917024E003FB226 /* create_dmg.sh */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
