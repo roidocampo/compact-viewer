@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0115005191475C1007AD1BF /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F0115004191475C1007AD1BF /* AppIcon.icns */; };
+		F02D44EC19171A23003FB226 /* pdf-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F02D44EB19171A23003FB226 /* pdf-icon.icns */; };
 		F0389C491913DF4300E35AEB /* CVTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0389C481913DF4300E35AEB /* CVTableCellView.m */; };
 		F068E77E1912E78800B6153B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F068E77D1912E78800B6153B /* Cocoa.framework */; };
 		F068E7881912E78800B6153B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F068E7861912E78800B6153B /* InfoPlist.strings */; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F0115004191475C1007AD1BF /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = ../AppIcon.icns; sourceTree = "<group>"; };
 		F02D44E81917024E003FB226 /* create_dmg.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = create_dmg.sh; sourceTree = "<group>"; };
+		F02D44EB19171A23003FB226 /* pdf-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "pdf-icon.icns"; path = "../pdf-icon.icns"; sourceTree = "<group>"; };
 		F0389C471913DF4300E35AEB /* CVTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTableCellView.h; sourceTree = "<group>"; };
 		F0389C481913DF4300E35AEB /* CVTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTableCellView.m; sourceTree = "<group>"; };
 		F068E77A1912E78800B6153B /* Compact Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compact Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,7 +154,7 @@
 		F068E7841912E78800B6153B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0115004191475C1007AD1BF /* AppIcon.icns */,
+				F02D44EB19171A23003FB226 /* pdf-icon.icns */,
 				F068E7851912E78800B6153B /* Compact Viewer-Info.plist */,
 				F068E7861912E78800B6153B /* InfoPlist.strings */,
 				F068E7891912E78800B6153B /* main.m */,
@@ -260,11 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0115005191475C1007AD1BF /* AppIcon.icns in Resources */,
 				F068E7881912E78800B6153B /* InfoPlist.strings in Resources */,
 				F068E7961912E78900B6153B /* Images.xcassets in Resources */,
 				F068E78E1912E78800B6153B /* Credits.rtf in Resources */,
 				F068E7941912E78900B6153B /* MainMenu.xib in Resources */,
+				F02D44EC19171A23003FB226 /* pdf-icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

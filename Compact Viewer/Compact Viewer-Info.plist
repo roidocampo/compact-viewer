@@ -44,7 +44,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>AppIcon</string>
+	<string>pdf-icon</string>
 	<key>CFBundleIdentifier</key>
 	<string>roi.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
