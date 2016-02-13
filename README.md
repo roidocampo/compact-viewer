@@ -1,3 +1,12 @@
+Project Discontinued
+====================
+
+I used this pdf viewer for 2 years, and I was generally happy with it. Except
+for one problem: it cannot view DjVu files. Now I use an alternative based on
+[Evince][0].
+
+[0]: https://wiki.gnome.org/Apps/Evince
+
 Compact Viewer
 ==============
 
