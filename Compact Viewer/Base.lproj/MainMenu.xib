@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
         <plugIn identifier="com.apple.pdfkit.ibplugin" version="5056"/>
@@ -164,6 +164,16 @@
                                     <action selector="goForward:" target="PV7-ov-pJE" id="PIA-nC-pwF"/>
                                 </connections>
                             </menuItem>
+                            <menuItem title="Go to Top" keyEquivalent="" id="EIZ-Y5-WVa">
+                                <connections>
+                                    <action selector="goToFirstPage:" target="PV7-ov-pJE" id="NqJ-gK-BUY"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Go to Bottom" keyEquivalent="" id="9cD-av-FaN">
+                                <connections>
+                                    <action selector="goToLastPage:" target="PV7-ov-pJE" id="xVV-OW-wri"/>
+                                </connections>
+                            </menuItem>
                             <menuItem title="Undo" hidden="YES" keyEquivalent="z" id="dRJ-4n-Yzg">
                                 <connections>
                                     <action selector="undo:" target="-1" id="M6e-cu-g7V"/>
@@ -174,15 +184,15 @@
                                     <action selector="redo:" target="-1" id="oIA-Rs-6OD"/>
                                 </connections>
                             </menuItem>
-                            <menuItem isSeparatorItem="YES" hidden="YES" id="WRV-NI-Exz"/>
+                            <menuItem isSeparatorItem="YES" id="WRV-NI-Exz"/>
                             <menuItem title="Cut" hidden="YES" keyEquivalent="x" id="uRl-iY-unG">
                                 <connections>
                                     <action selector="cut:" target="-1" id="YJe-68-I9s"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Copy" hidden="YES" keyEquivalent="c" id="x3v-GG-iWU">
+                            <menuItem title="Copy" keyEquivalent="c" id="x3v-GG-iWU">
                                 <connections>
-                                    <action selector="copy:" target="-1" id="G1f-GL-Joy"/>
+                                    <action selector="copy:" target="Voe-Tx-rLC" id="96Q-aV-eJa"/>
                                 </connections>
                             </menuItem>
                             <menuItem title="Paste" hidden="YES" keyEquivalent="v" id="gVA-U4-sdL">

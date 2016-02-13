@@ -24,6 +24,7 @@
 		F09D102C19160DEB003C8509 /* CVTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D102B19160DEB003C8509 /* CVTextFieldCell.m */; };
 		F0A770C91912EC9400F16A7D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A770C81912EC9400F16A7D /* Quartz.framework */; };
 		F0A770CC1912FE0200F16A7D /* CVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A770CB1912FE0200F16A7D /* CVDocument.m */; };
+		F0B1E7401A56E9E5002FBFA6 /* triangulo.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B1E73F1A56E9E5002FBFA6 /* triangulo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F0A770C81912EC9400F16A7D /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		F0A770CA1912FE0200F16A7D /* CVDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDocument.h; sourceTree = "<group>"; };
 		F0A770CB1912FE0200F16A7D /* CVDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDocument.m; sourceTree = "<group>"; };
+		F0B1E73F1A56E9E5002FBFA6 /* triangulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangulo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		F068E7831912E78800B6153B /* Compact Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				F0B1E73F1A56E9E5002FBFA6 /* triangulo.png */,
 				F068E78F1912E78800B6153B /* CVAppDelegate.h */,
 				F068E7901912E78800B6153B /* CVAppDelegate.m */,
 				F0389C471913DF4300E35AEB /* CVTableCellView.h */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F068E7881912E78800B6153B /* InfoPlist.strings in Resources */,
+				F0B1E7401A56E9E5002FBFA6 /* triangulo.png in Resources */,
 				F068E7961912E78900B6153B /* Images.xcassets in Resources */,
 				F068E78E1912E78800B6153B /* Credits.rtf in Resources */,
 				F068E7941912E78900B6153B /* MainMenu.xib in Resources */,

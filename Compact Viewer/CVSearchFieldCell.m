@@ -16,7 +16,7 @@
     {
         [self.innerBackgroundColor setFill];
         NSRect frame = cellFrame;
-        double radius = MIN(NSWidth(frame), NSHeight(frame)) / 2.0;
+        double radius = 0;//MIN(NSWidth(frame), NSHeight(frame)) / 2.0;
         [[NSBezierPath bezierPathWithRoundedRect:frame
                                          xRadius:radius yRadius:radius] fill];
     }

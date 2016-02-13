@@ -54,8 +54,11 @@
     CVTableCellView *new = (CVTableCellView *)[owner.sidebarOutlineView makeViewWithIdentifier:@"DataCell" owner:owner];
     new.doc = document;
     [new.textField setStringValue:new.doc.name];
-    NSImage *darkTriange = [NSImage imageNamed:NSImageNameGoRightTemplate];
-    NSImage *clearTriangle = [darkTriange tintedImageWithColor:[NSColor redColor]];
+    // NSImage *darkTriange = [NSImage imageNamed:NSImageNameGoRightTemplate];
+    // NSImage *darkTriange = [NSImage imageNamed:NSImageNameFollowLinkFreestandingTemplate];
+    // NSImage *clearTriangle = [darkTriange tintedImageWithColor:[NSColor redColor]];
+    // NSImage *clearTriangle = [darkTriange tintedImageWithColor:[NSColor whiteColor]];
+    NSImage *clearTriangle = [NSImage imageNamed:@"triangulo.png"];
     [new.imageView setImage:clearTriangle];
     return new;
 }

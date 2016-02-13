@@ -36,6 +36,7 @@
 - (IBAction)findNext:(id)sender;
 - (IBAction)findPrevious:(id)sender;
 - (IBAction)findFocus:(id)sender;
+- (IBAction)copy:(id)sender;
 
 
 

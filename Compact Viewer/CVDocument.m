@@ -35,7 +35,7 @@
                 doc.url = [NSURL fileURLWithPath:filename];
                 doc.isValid = YES;
             } else {
-                newFilename = [@"/Users/roi/Dropbox/Articles/converted/"
+                newFilename = [@"/Users/roi/Dropbox/Zotero/converted/"
                                stringByAppendingString:convertedFileName];
                 if ([[NSFileManager defaultManager] fileExistsAtPath:newFilename]) {
                     filename = newFilename;
